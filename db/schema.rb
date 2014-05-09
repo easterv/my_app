@@ -11,11 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140509003808) do
+ActiveRecord::Schema.define(version: 20140509024402) do
 
   create_table "foodstalls", force: true do |t|
     t.string   "food"
-    t.string   "drink"
     t.float    "price"
     t.datetime "created_at"
     t.datetime "updated_at"

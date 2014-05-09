@@ -5,7 +5,7 @@
   <thead>
     <tr>
       <th>Food</th>
-      <th>Drink</th>
+      <!-- <th>Drink</th> -->
       <th>Price</th>
       <th></th>
       <th></th>
@@ -17,7 +17,7 @@
     <% @foodstalls.each do |foodstall| %>
       <tr>
         <td><%= foodstall.food %></td>
-        <td><%= foodstall.drink %></td>
+        <!-- <td><%#= foodstall.drink %></td> --> 
         <td><%= foodstall.price %></td>
         <td><%= link_to 'Show', foodstall %></td>
         <td><%= link_to 'Edit', edit_foodstall_path(foodstall) %></td>
